@@ -36,7 +36,7 @@ export const NotesList = ({ notes }: NotesListProps) => {
           <div className="mt-4 text-sm text-white">
             {formatDate(note.created_at)}
           </div>
-          <button
+          {/* <button
             onClick={() => deleteNote(note.id)}
             className={cn(
               "absolute top-2 right-2 p-2 rounded-full",
@@ -47,7 +47,7 @@ export const NotesList = ({ notes }: NotesListProps) => {
             aria-label="Delete note"
           >
             <Trash2 className="w-5 h-5 text-white hover:text-gray-200" />
-          </button>
+          </button> */}
         </div>
       ))}
     </div>
