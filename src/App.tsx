@@ -5,7 +5,7 @@ import { Notes } from './pages/Notes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/ahmednabiled_portfolio/'>
       <LanguageProvider>
         <Routes>
           <Route path="/" element={<Home />} />

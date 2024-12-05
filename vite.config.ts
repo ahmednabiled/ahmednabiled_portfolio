@@ -4,7 +4,6 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base :"/ahmednabiled_portfolio/",
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
@@ -13,4 +12,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: "/ahmednabiled_portfolio/",  
 });
