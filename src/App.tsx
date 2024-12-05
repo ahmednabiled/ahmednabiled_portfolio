@@ -5,7 +5,7 @@ import { Notes } from './pages/Notes';
 
 function App() {
   return (
-    <BrowserRouter basename='/ahmednabiled_portfolio/'>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <LanguageProvider>
         <Routes>
           <Route path="/" element={<Home />} />
